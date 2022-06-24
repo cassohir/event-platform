@@ -5,7 +5,7 @@ function App() {
 
   return (
 
-      <h1>sdasdsa</h1>
+      <h1 className="">sdasdsa</h1>
 
   )
 
