@@ -1,14 +1,19 @@
-import { useState } from 'react'
+import { Header } from "./components/Header";
+import { Lesson } from "./components/Lesson";
+import { Sidebar } from "./components/Sidebar";
+import { Video } from "./components/Video";
+import { Event } from "./pages/Event"
 
-function App() {
-  const [count, setCount] = useState(0)
+ function App(){
 
   return (
 
-      <h1 className="">sdasdsa</h1>
-
+    
+    
+      <Event/>
+     
+   
   )
-
 }
 
 export default App
